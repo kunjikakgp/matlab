@@ -1857,16 +1857,20 @@ typedef struct {
   boolean_T c4_doneDoubleBufferReInit;
   uint8_T c4_JITStateAnimation[1];
   uint8_T c4_JITTransitionAnimation[1];
-  real_T c4_H[61020];
-  real_T c4_hnew[61020];
-  real_T c4_varargin_1[61020];
-  real_T c4_aTmp[10880];
-  real_T c4_dv[8960];
-  real_T c4_b_aTmp[9632];
-  real_T c4_bTmp[8960];
+  real_T c4_H[64260];
+  real_T c4_hnew[64260];
+  real_T c4_varargin_1[64260];
+  real_T c4_aTmp[14720];
+  real_T c4_b_aTmp[14720];
+  real_T c4_b_dv[12800];
+  real_T c4_c_aTmp[13760];
+  real_T c4_bTmp[12800];
+  real_T c4_i2[12800];
+  real_T c4_b_i2[12800];
+  real_T c4_magGrad[12800];
   CovrtStateflowInstance *c4_covrtInstance;
   void *c4_fEmlrtCtx;
-  real_T (*c4_BWimage)[8960];
+  real_T (*c4_BWimage)[12800];
   real_T *c4_DegAngle;
 } SFc4_flightControlSystemInstanceStruct;
 

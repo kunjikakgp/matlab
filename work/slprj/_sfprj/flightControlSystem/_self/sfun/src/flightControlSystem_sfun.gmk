@@ -16,7 +16,7 @@ MATLAB_ROOT  = c:\program files\matlab\r2024b\toolbox\stateflow\stateflow\..\..\
 BUILDARGS   = 
 #------------------------------ Include/Lib Path ------------------------------
  
-USER_INCLUDES = -I"C:\Users\USER\MATLAB\Projects\examples\parrotMinidroneCompetition6\utilities" -I"C:\Users\USER\MATLAB\Projects\examples\parrotMinidroneCompetition6\controller" 
+USER_INCLUDES = -I"C:\Users\USER\MATLAB\Projects\examples\parrotMinidroneCompetition6" -I"C:\Users\USER\MATLAB\Projects\examples\parrotMinidroneCompetition6\controller" 
 AUX_INCLUDES = 
 MLSLSF_INCLUDES  = \
     -I"C:\Program Files\MATLAB\R2024b\extern\include" \
